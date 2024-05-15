@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauts</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -12,34 +12,30 @@
         <p>Astronautas</p>  
     </header>
     <main>
-        <section>
+        <section class="form-section">
             <figure>
-                <img src="" alt="">
+                <img src="assets/images/welcome-min.jpg" alt="Spaceship takes off">
             </figure>
-
-            <h2>Welcome</h2>
-
-            <form action="">
-                <p>Sign In</p>
-                <label>Username</label>
-                <input id="name" type="text" name="name" placeholder="Please enter your Username">
-    
-                <label>Password</label>
-                <input id="password" type="password" name="password" placeholder="Please enter your password">
-    
-                <input id="login" type="submit" class="button" value="Login" name="login">
-            </form>
-            
+            <div class="form-wrapper">
+                <div class="form-heading">
+                    <h3>Welcome</h3>
+                    <p class="inter">Sign In</p>
+                </div>
+                <form action="/dashboard.html">
+                    <label>Username
+                        <input id="username" type="text" name="username" class="inputs" placeholder="Please enter your Username" required>
+                    </label>
+                    <label>Password
+                        <input id="password" type="password" name="password" class="inputs" placeholder="Please enter your password" required>
+                    </label>
+                    <input id="login" type="submit" class="button" value="Login" name="login">
+                </form>                
+            </div>
         </section>
     </main>
     <footer>
         <p>© 2024 All rights reserved.</p>
         <p>Astronauts team</p>
-    </footer>
-    
-
-
-
-    
+    </footer> 
 </body>
 </html>
