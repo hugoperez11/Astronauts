@@ -133,6 +133,7 @@ footer{
     color: var(--white);
 }
 
+/*
 .card img:hover{
     opacity: 0;
 }
@@ -158,5 +159,57 @@ footer{
     position: absolute;
 }
 .text:hover{
+    opacity: 1;
+}
+*/
+
+
+
+
+
+
+
+
+
+.card {
+    position: relative;
+}
+span {
+    max-width: 250px;
+    max-height: 250px;
+}
+.hidden-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+    display: flex;
+    opacity: 0;
+}
+.olena-text {
+    background-color: var(--pink);
+}
+.hugo-text {
+    background-color: var(--yellow);
+}
+.daniil-text {
+    background-color: var(--violet);
+}
+
+h4 {
+    margin-inline: auto;
+    align-self: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.card .hidden-text {
+    transition: 600ms ease-in-out opacity;
+}
+
+.card:hover .hidden-text {
     opacity: 1;
 }
