@@ -1,22 +1,10 @@
-document.getElementById("login-form").addEventListener("submit", (event) => {
-  event.preventDefault();
+const form = document.getElementById("login-form");
+form.addEventListener("submit", function(event) {
 
-  const passwordInput = document.getElementById("password");
-  const error = document.getElementById("login-error");
-  const validPassword = "password";
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
 
-  if (passwordInput.value === validPassword) {
-    window.location.href = "./dashboard.html";
-  } else {
-    error.style.display = "block";
-    passwordInput.value = "";
-  }
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
+
 });
-
-const lover = document.getElementById("lover")
-
-console.log(lover);
-
-document.getElementById("lover").addEventListener('click', () => {
-    lover.innerHTML = "😒";
-})
