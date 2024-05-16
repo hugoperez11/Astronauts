@@ -7,20 +7,13 @@
 
 .section1 img{
     width: 100%;
+    max-width: 1290px;
     border-top-left-radius: 253px;
     border-top-right-radius: 253px;
 }
-.section1 div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 71px;
-    background-color: #EBE9E8;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
 
 .section1 .sub-heading{
+    max-width: 1290px;
     width: 100%;
     text-align: center;
     padding-block: 20px;
