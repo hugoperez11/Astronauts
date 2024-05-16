@@ -1,49 +1,14 @@
-@import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-:root {
-    --bg-main: #FDFDFD;
-    --dark: #3A261D;
-    --light: #998E89;
-    --p-light: #FFF5F0;
-    --accent: #C16631;
-    --accent-hover: #E77B3D;
-    --placeholder: #C0B8B4;
-    --border: #E1DEDD;
-    --pink: #F5A4ED;
-    --yellow: #F3E089;
-    --violet: #C384F4;
-    --white: #fff;
-}
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: "Kanit", sans-serif;
-}
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 25px;
-}
-header p {
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-}
 .section1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 75px;
+    padding-top: 20px;
 }
 .section1 img{
     width: 1290px;
     height: 506px;
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
+    border-top-left-radius: 253px;
+    border-top-right-radius: 253px;
 }
 .section1 div{
     display: flex;
@@ -51,34 +16,33 @@ header p {
     align-items: center;
     width: 1290px;
     height: 71px;
-    background-color: var(--placeholder);
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    background-color: #EBE9E8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
-.section1 p{
-    font-family: "Kanit", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
+
+.section1 .sub-heading{
+    color: var(--dark);
 }
 .section2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    padding-top: 100px;
 }
+/*
 .section2 h2{
-    margin-top: 110px;
     font-size: 36px;
     font-weight: 400;
     color: var(--dark);
-    margin-bottom: 10px;
-}
+}*/
+/*
 .section2 p{
     font-size: 24px;
     font-weight: 300;
     color: var(--light);
-}
+}*/
 .section2 .container{
     display: flex;
     justify-content: space-evenly;
@@ -100,8 +64,8 @@ header p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
 }
+/*
 .section3 h2{
     font-size: 36px;
     font-weight: 400;
@@ -112,7 +76,7 @@ header p {
     font-size: 24px;
     font-weight: 300;
     color: var(--light);
-}
+}*/
 .img-container{
     display: flex;
     justify-content: space-around;
@@ -123,45 +87,7 @@ header p {
     width: 86px;
     height: 85px;
 }
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    background-color: var(--dark);
-    font-family: "Inter", sans-serif;
-    color: var(--white);
-}
 
-/*
-.card img:hover{
-    opacity: 0;
-}
-.hugo:hover{
-    height: 250px;
-    border-radius: 50%;
-    background-color: var(--yellow);
-}
-.daniil:hover{
-    height: 250px;
-    border-radius: 50%;
-    background-color: var(--violet);
-}
-.olena:hover{
-    height: 250px;
-    border-radius: 50%;
-    background-color: var(--pink);
-}
-.text{
-    opacity: 0;
-    margin-top: 100px;
-    font-size: 50px;
-    position: absolute;
-}
-.text:hover{
-    opacity: 1;
-}
-*/
 
 .emoji{
     font-size: 42px;

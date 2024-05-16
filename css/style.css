@@ -20,13 +20,22 @@
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
-html, body {
+html, body{
+    height: 100%;
+}
+
+body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
@@ -38,6 +47,15 @@ h3 {
     color: var(--dark);
 }
 
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--dark);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
 .sub-heading {
     font-family: "Kanit", sans-serif;
     font-size: 24px;
@@ -63,8 +81,15 @@ header{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin: 25px;
     font-family: "Kanit", sans-serif;
+    padding: 15px;
+}
+header p {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--dark);
+    line-height: 130%;
 }
 label {
     font-family: "Inter", sans-serif;
@@ -86,7 +111,7 @@ label {
     grid-template-columns: repeat(8, 1fr);
     gap: 30px;
     box-shadow: 0px 13px 51.6px 0px rgba(0, 0, 0, 0.05);
-    margin-bottom: 150px;
+    align-self: center;
 }
 
 .form-section figure {
@@ -120,6 +145,16 @@ form {
     padding: 15px;
     border-radius: 10px;
     border: 1px solid var(--border);
+    transition: 150ms ease-in-out border;
+    outline: none;
+}
+
+.inputs:hover {
+    border: 1px solid var(--accent);
+}
+
+.inputs:focus {
+    border: 1px solid var(--dark);
 }
 
 input[type="text"]::placeholder, input[type="password"]::placeholder {
@@ -142,13 +177,23 @@ input[type="text"]::placeholder, input[type="password"]::placeholder {
     font-weight: 400;
     line-height: 130%; /* 20.8px */
     color: var(--p-light);
+    transition: 150ms ease-in-out border;
 }
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
+.button:hover {
+    cursor: pointer;
+    background-color: var(--accent-hover);
+}
+
+footer {
     background-color: var(--dark);
-    font-family: "Inter", sans-serif;
-    color: var(--white);
+    padding-inline: 30px;
+}
+
+.footer-container {
+    max-width: 1290px;
+    padding-block: 20px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    color: var(--p-light);
 }
