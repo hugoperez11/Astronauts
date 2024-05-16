@@ -11,4 +11,4 @@ git clone https://github.com/Danil22May/My-first-web.git](https://github.com/hug
 
 - ([@OlenaAndrushchenko](https://github.com/OlenaAndrushchenko))
 - ([@Danil22May](https://github.com/Danil22May))
-- ([@hugoperez](https://github.com/Danil22May))
+- ([@hugoperez11](https://github.com/hugoperez11))
