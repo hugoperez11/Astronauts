@@ -108,14 +108,13 @@ label {
     border: var(--dark) 2px solid;
     border-radius: 30px;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     box-shadow: 0px 13px 51.6px 0px rgba(0, 0, 0, 0.05);
     align-self: center;
 }
 
 .form-section figure {
-    grid-column: span 4;
     display: flex;
 }
 
@@ -125,8 +124,8 @@ label {
 }
 
 .form-wrapper {
-    grid-column: span 4;
     padding-inline: 10px 40px;
+    padding-block: 30px;
     align-self: center;
 }
 
