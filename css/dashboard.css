@@ -160,3 +160,10 @@ footer{
 .text:hover{
     opacity: 1;
 }
+.emoji{
+    font-size: 42px;
+    margin-top: 215px;
+    margin-left: 75px;
+    position: absolute;
+    cursor: pointer;
+}

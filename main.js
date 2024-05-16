@@ -12,3 +12,11 @@ document.getElementById("login-form").addEventListener("submit", (event) => {
     passwordInput.value = "";
   }
 });
+
+const lover = document.getElementById("lover")
+
+console.log(lover);
+
+document.getElementById("lover").addEventListener('click', () => {
+    lover.innerHTML = "😒";
+})
