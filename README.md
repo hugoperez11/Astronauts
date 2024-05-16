@@ -5,7 +5,7 @@ Preview<br>
 <img src="https://i.ibb.co/Xyhg4g0/Image20240516143813.png">
 ## Install
 
-git clone https://github.com/Danil22May/My-first-web.git](https://github.com/hugoperez11/Astronauts
+git clone https://github.com/hugoperez11/Astronauts.git
 
 ## Contributors
 
